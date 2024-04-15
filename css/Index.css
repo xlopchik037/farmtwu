@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* 
+Regular - 400
+SemiBlod - 600
+Light - 300
+Medium - 500
+Bold - 700
+
+font-family: Poppins
+*/
+/* Header style start*/
+
+
+.header {
+  margin: 30px 230px;
+}
+
+
+.header_block {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+
+
+
+.header_block_nav_div {
+  display: flex;
+}
+
+.header_block_nav_item {
+  text-decoration: none;
+  color: #22262A;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Poppins;
+  margin-right: 30px;
+}
+
+.header_block_nav_item:last-child {
+  margin-right: 0px;
+}
+
+
+
+
+/* Header style end*/
+
+/*Navigation style start*/
+
+
+.nav_block {
+  position: relative;
+  background: url(../Img/11.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 120px;
+}
+
+.nav_block_background {
+  width: 100%;
+  height: 745px;
+}
+
+.nav_block_cart {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  margin: 0px 230px 100px 0px;
+}
+
+
+
+.nav_cart_trend {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+
+.nav_cart_title {
+  margin: 18px 0px;
+}
+
+.nav_cart_collusion {
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+
+
+.nav_cart_trends {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav_cart_button {
+  margin-top: 30px;
+}
+
+.nav_cart_button_item {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  background-color: #22262A;
+  color: white;
+  width: 150px;
+  height: 35px;
+  margin-right: 35px;
+}
+
+/*Navigation style end*/
+
+
+/*Section style start*/
+
+.container {
+  margin: 0 230px;
+}
+
+.section_block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  margin-bottom: 110px;
+}
+
+
+
+.section_block_boy {
+  margin-bottom: 20px;
+}
+
+.section_block_boy_img {
+  height: 286px;
+}
+
+.section_block_gruap_gerl {
+  margin-right: 25px;
+  width: 262px;
+  height: 265px;
+}
+
+.section_block_gruap_gerl:last-child {
+  margin-right: 0;
+}
+
+.section_block_foto {
+  height: 550px;
+  height: auto;
+  position: relative;
+  background: url(../Img/MaskGroup.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.section_block_foto_button {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  background-color: white;
+  color: #22262A;
+  width: 200px;
+  height: 35px;
+  position: absolute;
+  bottom: 0;
+  margin: 0px 0px 28px 28px;
+}
+
+/*Section style end*/
+
+/*Shop style start*/
+
+.shop_block {
+  margin-bottom: 110px;
+}
+
+
+
+.shop_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.shop_title_text {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: bold;
+  color: #22262A;
+}
+
+.shop_subtitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+.shop_subtitle_text {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #22262A;
+}
+
+.shop_block_carts {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  column-gap: 22px;
+  place-items: center;
+}
+
+.shop_block_cart {
+  text-decoration: none;
+}
+
+.shop_block_cart:hover {
+  background-color: #edf3f8a2;
+}
+
+.shop_block_cart_img {
+  margin-bottom: 38px;
+}
+
+.shop_block_cart_inscription {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #22262A;
+  margin-bottom: 14px;
+}
+
+.shop_block_cart_title {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  color: #22262A;
+  margin-bottom: 14px;
+}
+
+.shop_block_cart_prices {
+  display: flex;
+}
+
+.shop_block_cart_crossed-out-price {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #22262A;
+  text-decoration: line-through;
+}
+
+.shop_block_cart_price {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  color: #CF2929;
+  margin-left: 30px;
+}
+
+
+
+/*Shop style end*/
+
+/*Avone style start*/
+
+.avone_block {
+  margin-bottom: 121px;
+}
+
+.avone_block_title {
+  margin-bottom: 60px;
+}
+
+.avone_block_title_inscription {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.avone_block_title_text {
+  display: flex;
+  justify-content: center;
+}
+
+.avone_block_footo {
+  position: relative;
+  height: 690px;
+}
+
+.foto_planet {
+  position: absolute;
+  bottom: 0;
+}
+
+.foto_bead {
+  position: absolute;
+  right: 38px;
+}
+
+.white_back {
+  width: 227px;
+  height: 280px;
+  background-color: white;
+  position: absolute;
+  right: 25px;
+  bottom: 22px;
+}
+
+.foto_wall {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text_bottom {
+  position: absolute;
+  bottom: 41px;
+  right: 260px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.line_bottom_text {
+  width: 168px;
+  position: absolute;
+  border-bottom: 1px solid #22262A;
+  right: 260px;
+  bottom: 36px;
+}
+
+/* Avone style end*/
+
+
+
+/* Tachen style start*/
+.tachen_block {
+  width: 100%;
+  height: 745px;
+  position: relative;
+  background: url(../Img/tachen.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.tachen_block_text {
+  position: absolute;
+  left: 230px;
+  bottom: 129px;
+}
+
+.tachen_block_text_inscription {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 27px;
+}
+
+.tachen_block_text_title {
+  font-family: Poppins;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+.tachen_block_text_button {
+  width: 215px;
+  height: 35px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  border: 0;
+  background-color: black;
+  color: white;
+}
+
+/* Tachen style end*/
+
+
+/* Footer style start*/
+
+.footer_block {}
+
+.top_footer_block {
+  background-color: #F2F8FC;
+  height: 606px;
+}
+
+.top_footer_block_fool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 115px;
+}
+
+.top_footer_block_left {
+  width: 400px;
+  height: 300px;
+}
+
+.top_footer_block_right {
+  width: 535px;
+  height: 390px;
+  margin-left: 200px;
+}
+
+.bottom_footer_block {
+  background-color: #E7F5F8;
+  height: 93px;
+}
+
+.bottom_footer_block_text {
+  display: flex;
+  padding-top: 35px;
+  align-self: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer_block {
+  font-family: Poppins;
+}
+
+.top_footer_block_left_logo {
+  margin-bottom: 40px;
+}
+
+.footer_block_title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer_block_left_text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.top_footer_block_left_citi_text {
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.footer_block_left_inter_email {
+  width: 235px;
+  height: 23px;
+  font-size: 15px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  margin-bottom: 9px;
+}
+
+.footer_block_left_inter_number {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.top_footer_block_left_citi {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.footer_block_citi_img {
+  margin-right: 26px;
+}
+
+.top_footer_block_left_inter {
+  margin-bottom: 16px;
+}
+
+
+
+
+.top_footer_block_right_title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  display: flex;
+  width: 530px;
+  height: 45px;
+}
+
+.input-container input {
+  flex: 1;
+  color: #22262A;
+  font-size: 15px;
+  font-weight: 400;
+  border: 0;
+  font-family: Poppins;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #ffffff;
+}
+
+
+.input-container button {
+  border: 0;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+  color: #22262A;
+  background-color: #ffffff;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+
+.footer_block_right_nav {
+  margin-top: 70px;
+}
+
+.footer_block_right_nav_carts {
+  display: flex;
+}
+
+.footer_block_right_nav_cart {
+  margin-right: 90px;
+}
+
+.footer_block_right_nav_cart:last-child {
+  margin-right: 0px;
+}
+
+
+.footer_block_right_nav_cart_title {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer_block_right_nav_cart_title-text {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.footer_block_right_nav_cart_title-text:last-child {
+  margin-bottom: 0px;
+}
+
+/* Footer style end*/
